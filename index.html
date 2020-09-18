@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <title>Главная</title>
+    <meta charset="UTF-8">
+    <meta
+        name="format-detection"
+        content="telephone=no"
+    >
+    <link
+        rel="stylesheet"
+        href="css/style.css"
+    >
+    <link
+        rel="shortcut icon"
+        href="favicon.ico"
+    >
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+</head>
+
+<body>
+    <div class="wrapper">
+        <section class="main-screen">
+            <div class="container">
+                <h2 class="visually-hidden">Main Screen</h2>
+                <header class="header">
+                    <div class="header__logo">
+                        <img
+                            src="./img/header/logo.png"
+                            alt="Company_logo"
+                        >
+                    </div>
+
+                    <nav class="header__navigation navigation">
+                        <div class="icon-menu">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <ul class="navigation__list">
+                            <li class="navigation__item"><a
+                                    href=""
+                                    class="navigation__link active-link"
+                                >HOME</a></li>
+                            <li class="navigation__item">
+                                <a
+                                    href="#about"
+                                    class="navigation__link"
+                                >ABOUT</a>
+                            </li>
+                            <li class="navigation__item">
+                                <a
+                                    href="#services"
+                                    class="navigation__link"
+                                >SERVICES</a>
+                            </li>
+                            <li class="navigation__item">
+                                <a
+                                    href="#gallery"
+                                    class="navigation__link"
+                                >GALLERY</a>
+                            </li>
+                            <li class="navigation__item">
+                                <a
+                                    href="#contact"
+                                    class="navigation__link"
+                                >CONTACT</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </header>
+
+                <div class="main-screen__info">
+                    <div class="main-screen__info-wrap">
+                        <h1 class="main-screen__heading">
+                            TRAVEL IS<br>
+                            <span>BEAUTIFUL</span>
+                        </h1>
+                        <p class="main-screen__text">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                        </p>
+                    </div>
+
+                    <button
+                        class="main-screen__button btn"
+                        data-popupname="request"
+                    >Get Started</button>
+                </div>
+            </div>
+        </section>
+
+        <section
+            class="services"
+            id="services"
+        >
+            <div class="container">
+                <h2 class="services__title section-title"><span>OUR</span> SERVICES</h2>
+                <ul class="services__list">
+                    <li class="services__item">
+                        <p class="services__text">Making your trip beautiful and easier</p>
+                    </li>
+                    <li class="services__item">
+                        <p class="services__text">Tools to help you succeed tommorow</p>
+                    </li>
+                    <li class="services__item">
+                        <p class="services__text">Ideas that will blow you out the blue.</p>
+                    </li>
+                    <li class="services__item">
+                        <p class="services__text">Navigate your path to beautiful world.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section
+            class="about"
+            id="about"
+        >
+            <div class="container">
+                <div class="about-wrap">
+                    <h2 class="visually-hidden">OUR STORY</h2>
+                    <p class="about__text">
+                        We are in business for over 6 years providing amazing services to client and people love them to the core. View our story to know more.
+                    </p>
+                    <a
+                        class="about__button btn"
+                        href="#"
+                    >Our story</a>
+                </div>
+            </div>
+        </section>
+
+        <section
+            class="pricing"
+            id="pricing"
+        >
+            <div class="container">
+                <h2 class="section-title pricing__title">PRICING</h2>
+
+                <div class="pricing__wrap">
+                    <div class="picing__card card">
+                        <h3 class="card__title">Starter</h3>
+                        <p class="card__price"><strong>Free</strong></p>
+                        <ul class="card__features-list">
+                            <li class="card__features-item">Free Service</li>
+                            <li class="card__features-item">Multiple Accounts</li>
+                            <li class="card__features-item">Management No</li>
+                            <li class="card__features-item">--</li>
+                            <li class="card__features-item">--</li>
+                        </ul>
+                        <button class="card__button btn">TRY</button>
+                    </div>
+                    <div class="picing__card card">
+                        <div class="card__popular-offer">
+                            <strong>Popular</strong>
+                        </div>
+                        <h3 class="card__title">Business</h3>
+                        <p class="card__price"><strong>$97</strong></p>
+                        <ul class="card__features-list">
+                            <li class="card__features-item">Free Service</li>
+                            <li class="card__features-item">Multiple Accounts</li>
+                            <li class="card__features-item">Management No</li>
+                            <li class="card__features-item">Unlimited Data</li>
+                            <li class="card__features-item">--</li>
+                        </ul>
+                        <button class="card__button card__button--popular btn">SIGN UP</button>
+                    </div>
+                    <div class="picing__card card">
+                        <h3 class="card__title">Professional</h3>
+                        <p class="card__price"><strong>$297</strong></p>
+                        <ul class="card__features-list">
+                            <li class="card__features-item">Free Service</li>
+                            <li class="card__features-item">Multiple Accounts</li>
+                            <li class="card__features-item">Management No</li>
+                            <li class="card__features-item">Unlimited Data</li>
+                            <li class="card__features-item">Whatever you need</li>
+                        </ul>
+                        <button class="card__button btn">SIGN UP</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="container">
+            <div class="sections-wrap">
+                <section
+                    class="testimonials"
+                    id="testimonials"
+                >
+                    <h2 class="section-title testimonials__title">TESTIMONIALS</h2>
+
+                    <article class="testimonial">
+                        <p class="testimonial__text">
+                            I have been involved with this comapny for ages and just want to say this is a great work by
+                            designcoon.
+                        </p>
+
+                        <p class="testimonial__author">
+                            <a
+                                href="#"
+                                class="testimonial__link"
+                            >DJ Bravo - Frequent Travelera</a>
+                        </p>
+
+                        <div class="testimonial__image-wrap">
+                            <img
+                                src="./img/testimonial/1.png"
+                                alt="Author photo"
+                                class="testimonial__image"
+                            >
+                        </div>
+                    </article>
+
+                    <article class="testimonial">
+                        <p class="testimonial__text">
+                            I have been involved with this comapny for ages and just want to say this.
+                        </p>
+
+                        <p class="testimonial__author">
+                            <a
+                                href=""
+                                class="testimonial__link"
+                            >DJ Vind - Travelera Frequent</a>
+                        </p>
+
+                        <div class="testimonial__image-wrap">
+                            <img
+                                src="./img/testimonial/2.png"
+                                alt="Author photo"
+                                class="testimonial__image"
+                            >
+                        </div>
+                    </article>
+                </section>
+
+                <section
+                    class="gallery"
+                    id="gallery"
+                >
+                    <h2 class="section-title gallery__title"><span>GALLERY</span></h2>
+
+                    <div class="gallery__wrap">
+                        <div class="gallery__row">
+                            <img
+                                src="./img/gallery/1.png"
+                                alt="Gallery picture"
+                                class="gallery__image"
+                            >
+                            <img
+                                src="./img/gallery/2.png"
+                                alt="Gallery picture"
+                                class="gallery__image"
+                            >
+                            <img
+                                src="./img/gallery/3.png"
+                                alt="Gallery picture"
+                                class="gallery__image"
+                            >
+                        </div>
+                        <div class="gallery__row">
+                            <img
+                                src="./img/gallery/4.png"
+                                alt="Gallery picture"
+                                class="gallery__image"
+                            >
+                            <img
+                                src="./img/gallery/5.png"
+                                alt="Gallery picture"
+                                class="gallery__image"
+                            >
+                            <img
+                                src="./img/gallery/6.png"
+                                alt="Gallery picture"
+                                class="gallery__image"
+                            >
+                        </div>
+                    </div>
+
+                    <div class="gallery__link-wrap">
+                        <a
+                            href="#"
+                            class="gallery__link"
+                        >VIEW MORE PICTURES</a>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class='container'>
+                <div class="footer__row">
+                    <p class="footer__text">All Rights Reserved | 2020 | Designed with love by
+                        <a
+                            class="footer__link"
+                            href="https://www.behance.net/zeetechie"
+                        >DesignCoon</a>
+                    </p>
+                    <div class="footer__logo">
+                        <a
+                            href="#"
+                            class="footer__link"
+                        >
+                            <img
+                                src="./img/header/logo.png"
+                                alt="Company logo"
+                            >
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <div
+        class="modal"
+        id="request"
+        hidden
+    >
+        <div class="modal__content">
+            <button class="modal__close">&#9587</button>
+            <div class="registration">
+                <h2 class="registration__title">Registration</h2>
+                <form
+                    action="https://fom.in.ua/echo"
+                    class="registration__form"
+                    method="post"
+                >
+                    <p>
+                        <label
+                            class="visually-hidden"
+                            for="user-name-field"
+                        >Name</label>
+                        <input
+                            class="registration-name registration__field"
+                            id="user-name-field"
+                            type="text"
+                            name="user-name"
+                            placeholder="Full name"
+                        >
+                    </p>
+                    <p>
+                        <label
+                            class="visually-hidden"
+                            for="user-email-field"
+                        >Email</label>
+                        <input
+                            class="registration-email registration__field"
+                            id="user-email-field"
+                            type="email"
+                            name="user-email"
+                            placeholder="Email Adress"
+                        >
+                    </p>
+                    <p>
+                        <label
+                            class="visually-hidden"
+                            for="user-phone-field"
+                        >Phone</label>
+                        <input
+                            class="registration-phone registration__field"
+                            id="user-phone-field"
+                            type="tel"
+                            name="user-phone"
+                            placeholder="Phone Number"
+                        >
+                    </p>
+                    <p>
+                        <label
+                            class="visually-hidden"
+                            for="user-country-field"
+                        >Name</label>
+                        <input
+                            class="registration-country registration__field"
+                            id="user-country-field"
+                            type="text"
+                            name="user-country"
+                            placeholder="Country"
+                        >
+                    </p>
+                    <p class="convention-info">
+                        <label class="convention-checkbox">
+                            <input
+                                class="checkbox-field"
+                                type="checkbox"
+                                name="user-convention"
+                            >
+                            <span class="checkbox-indicator"></span>I accept the terms & conditions
+                        </label>
+                    </p>
+                    <button
+                        class="main-screen__button main-screen__button_modal btn"
+                        type="submit"
+                    >Send</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/custom.js"></script>
+</body>
+
+</html>
