@@ -10,13 +10,10 @@ function toggleBurger() {
 if (iconMenu) {
     iconMenu.addEventListener('click', () => {
         toggleBurger();
-
-        document.querySelector('.navigation__list.active').addEventListener('click', toggleBurger);
     });
 }
 
 // show modals
-
 
 document.querySelectorAll('.btn') // получаем кнопки кот открывают модалки
 	.forEach(btn => {
