@@ -13,26 +13,24 @@ if (iconMenu) {
     });
 }
 
-// show modals
-
-document.querySelectorAll('.btn') // получаем кнопки кот открывают модалки
+document.querySelectorAll('.btn')
 	.forEach(btn => {
 		btn.addEventListener('click', () => {
-			let $popup = document.querySelector('#' + btn.dataset.popupname); // получаем data- атрибут кнопки и по нему выбираем конкретное модальное окно
+			let $popup = document.querySelector('#' + btn.dataset.popupname);
 
-            $popup.hidden = false; // открываем модалку
+            $popup.hidden = false;
             document.body.classList.toggle('lock');
 		});
 	})
 
-document.querySelectorAll('.modal') // выбираем все оверлеи модалок
+document.querySelectorAll('.modal')
 	.forEach($modal => {
 		$modal.addEventListener('click', () => {
             $modal.hidden = true;
             document.body.classList.toggle('lock');
 		})
 
-		let $modalContent = $modal.querySelector('.modal__content'); // получаем само окно
+		let $modalContent = $modal.querySelector('.modal__content');
 
 		$modalContent.addEventListener('click', elem => {
 			elem.stopPropagation();
